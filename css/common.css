@@ -71,7 +71,6 @@ a{
 }
 
 a:hover, a:active{
-	-webkit-transition:opacity 1s;-moz-transition:opacity 1s;-o-transition:opacity 1s;
 	outline: none;
 	color:#999;
 }
@@ -122,9 +121,9 @@ wrapper .inner{
 }
 
 .titArea{
+	padding: 0 0 10px;
 	border-bottom:1px #150903 solid;
 	height:30px;
-	padding:0 10px;
 }
 
 .titArea h2{
@@ -137,7 +136,11 @@ wrapper .inner{
 }
 .topBnr h2{
 	border-bottom:1px #150903 solid;
-	height:30px;
+	height:40px;
+}
+.topBnr h2 img.connection_bnr{
+	max-width:75%;
+	height: auto;
 }
 .topBnr li{
 	margin-top:15px;
@@ -170,6 +173,12 @@ wrapper .inner{
 	vertical-align: middle;
 }
 
+.kobetsu{
+	font-size:155%;
+	line-height:195%;
+	margin:15px 100px;
+}
+
 .shushi {
 	font-size:130%;
 	margin:15px 30px;
@@ -182,7 +191,7 @@ wrapper .inner{
 }
 
 .shashin {
-	height:2100px;
+	height:3070px;
 }
 
 .photo_area_l {
@@ -204,16 +213,23 @@ wrapper .inner{
 
 
 .eitai_banner {
-	width:445px;
-	padding:10px 20px;
+	width:300px;
+	padding:10px 10px;
 	float: left;
 }
 
 .bochi_banner {
-	width:445px;
-	padding:10px 20px;
-	float: right;
+	width:300px;
+	padding:10px 10px;
+	float: left;
 }
+
+.kobetsubo_banner {
+	width:300px;
+	padding:10px 10px;
+	float: left;
+}
+
 
 div#shizensou{
 	font-size:125%;
@@ -261,7 +277,7 @@ nav#mainNav ul li{
 	float: left;
 	border-right:1px solid #77b02e;
 	background: url(../img/line.jpg);
-	width:110px;
+	width:99px;
 }
 
 nav#mainNav ul li:last-child{
@@ -279,9 +295,9 @@ nav#mainNav ul li a span,
 nav#mainNav ul li a strong{
 	color: #ffffff;
 	display:block;
-	font-size:130%;
+	font-size:115%;
 	font-weight: bold;
-	line-height:4.1;
+	line-height:70px;
 	text-shadow: Green 1px 1px 0px, Green -1px 1px 0px, Green 1px -1px 0px, Green -1px -1px 0px;
 }
 
@@ -344,6 +360,18 @@ nav#mainNav ul li a:active strong{
 	font-weight:normal;
 }
 
+.post h2 img.title{
+	max-width: 25%;
+	height: auto;
+	float: left;
+}
+
+.post h2 img#title_kobetsubo{
+	max-width: 35%;
+	height: auto;
+	float: left;
+}
+
 .post h3{
 margin:10px 0;
 font-size:120%;
@@ -368,6 +396,13 @@ border-spacing: 0;
 margin:10px 0 20px;
 }
 
+.post table#eitai_shiyouryo{
+	border: 1px #214a78 solid;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin:auto;
+	}
+
 .post table th{
 	padding:7px 10px 7px 5px;
 	border: #214a78 solid;
@@ -389,6 +424,16 @@ margin:10px 0 20px;
 
 .post img {
 	max-width:80%;
+	height:auto;
+}
+
+.post img {
+	max-width:80%;
+	height:auto;
+}
+
+.post img.banner {
+	max-width:100%;
 	height:auto;
 }
 
